@@ -1,0 +1,27 @@
+<suite name="MySuite">
+
+	<parameter name="objectMapFile" value="objectMap.properties" />
+	
+	<parameter name="testDataFile" value="TestData.xlsx" />
+	
+	<parameter name="browser" value="C:/Program Files (x86)/Mozilla Firefox/firefox.exe" />	
+	
+	<parameter name="profile" value="C:/Users/Admin/AppData/Roaming/Mozilla/Firefox/Profiles/x4p4ajqq.default" />
+	
+	<parameter name="driverFile" value="lib/chromedriver.exe" />
+	
+	<parameter name="url" value="http://localhost:8999/hawtio/welcome" />
+	
+	<parameter name="pageLoadTimeOutInSec" value="60" />
+	
+	<parameter name="implicitWaitInSec" value="20" />
+	
+	<parameter name="screenshotsFolder" value="screenshots" />
+	
+	<test name="MyTests">
+		<packages>
+			<package name="tests" />
+		</packages>		
+	</test>
+	
+</suite>
