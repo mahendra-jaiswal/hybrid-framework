@@ -19,6 +19,7 @@
 	<parameter name="screenshotsFolder" value="screenshots" />
 	
 	<test name="MyTests">
+	
 		<packages>
 			<package name="tests" />
 		</packages>		
