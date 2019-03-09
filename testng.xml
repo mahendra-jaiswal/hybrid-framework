@@ -1,5 +1,6 @@
 <suite name="MySuite">
 
+
 	<parameter name="objectMapFile" value="objectMap.properties" />
 	
 	<parameter name="testDataFile" value="TestData.xlsx" />
